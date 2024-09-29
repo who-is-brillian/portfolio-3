@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: medium;
+}
+
+#about-page {
+  display: flex;
+  gap: 50px;
+  margin: 20px 20px 100px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-page img {
+  border-radius: 50% 0px 50% 0px;
+  object-fit: contain;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.about-me-page {
+  margin: 10px 50px 10px 50px;
+  background-color: #ff7f3e;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.about-me-page p {
+  text-align: justify;
+  color: #604cc3;
+}
+
+.myskill {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px 50px;
+}
+
+.card-skill {
+  background-color: #604cc3;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 1);
+}
+
+.card-skill:hover {
+  -webkit-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 1);
+  box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 1);
+  scale: 1.04;
+  transition: 0.3s ease-in-out;
+}
+
+.card-skill p {
+  color: #fff6e9;
+}
+
+@media only screen and (max-width: 600px) {
+  #about-page {
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+    gap: 10px;
+  }
+  .about-me-page {
+    margin: 5px 25px 5px 25px;
+  }
+
+  .myskill {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 30px 25px;
+  }
+}

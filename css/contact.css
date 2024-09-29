@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: medium;
+}
+
+.contact-container {
+  max-width: 400px;
+  margin: 50px auto 50px;
+  background-color: #ff7f3e;
+  padding: 20px;
+  -webkit-box-shadow: 8px 8px 0px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 8px 8px 0px -1px rgba(0, 0, 0, 1);
+  box-shadow: 8px 8px 0px -1px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  color: #604cc3;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 20px 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+}
+
+.contact-form input {
+  height: 30px;
+  border-radius: 50px;
+}
+
+.contact-form textarea {
+  height: 70px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact-form button {
+  margin: 20px auto;
+  padding: 5px;
+  font-family: "Patrick Hand", cursive;
+  font-size: large;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #604cc3;
+  color: #fff6e9;
+  -webkit-box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 1);
+}
+
+.contact-form button:hover {
+  -webkit-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 1);
+  box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: small;
+  }
+  .contact-container {
+    margin: 50px 10px;
+    padding: 10px;
+  }
+}
