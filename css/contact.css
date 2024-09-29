@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Patrick Hand";
   font-size: medium;
+  font-weight: 400;
 }
 
 .contact-container {
