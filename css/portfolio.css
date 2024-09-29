@@ -11,17 +11,8 @@ body {
   font-style: normal;
 }
 
-ul {
-  font-size: medium;
-}
-
-h2 {
-  font-size: large;
-}
-
 section {
   text-align: center;
-  font-size: medium;
 }
 
 section .container-portfolio {
@@ -61,6 +52,10 @@ section .container-portfolio {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: medium;
+  }
+
   section .container-portfolio {
     grid-template-columns: 1fr;
     margin: 10px;
